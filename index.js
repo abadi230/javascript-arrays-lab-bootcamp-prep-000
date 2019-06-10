@@ -42,4 +42,9 @@ function removeLastKitten(){
   return name
 }
 
-function 
+function removeFirstKitten(){
+  var name = kittens;
+  
+  name = kittens.slice(1);
+  return name
+}
