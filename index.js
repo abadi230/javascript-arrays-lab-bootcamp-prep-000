@@ -36,7 +36,7 @@ function prependKitten(name){
 }
 
 function removeLastKitten(){
-  name = kittens;
+  var name = kittens;
   name.pop();
   return kittens
 }
