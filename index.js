@@ -8,7 +8,7 @@ function destructivelyAppendKitten(name){
 }
 
 function destructivelyPrependKitten(name){
-  name = "Bob";
+  name = ["Bob"];
   kittens = name.concat(kittens);
   return kittens
 }
