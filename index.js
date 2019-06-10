@@ -39,5 +39,5 @@ function removeLastKitten(){
   var name = kittens;
   
   name.pop();
-  return name
+  return kittens
 }
